@@ -1,9 +1,9 @@
 <?php
     class Conexao {
-            private $host = '172.106.0.111';
-            private $dbname = 'jr_broker_novo';
-            private $user = 'jr_broker_db';
-            private $pass = 'T5rzr6b@yF!Rkn7y';
+            private $host = 'localhost';
+            private $dbname = 'jr_broker_db';
+            private $user = 'root';
+            private $pass = '';//'T5rzr6b@yF!Rkn7y';
             public function conectar (){
             try{
                 $conexao = new PDO(
